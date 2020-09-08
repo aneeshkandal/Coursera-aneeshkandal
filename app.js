@@ -22,11 +22,11 @@
         return Name.trim() != '';
       })
 
-      if(checkName.length <= 3 && checkName.length >= 3 ) {
+      if(checkName.length <= 3) {
         $scope.result = "Group Of 3 registered";
       }
       else {
-        $scope.result = "Error - Must enter 3 names";
+        $scope.result = "Error";
       }
 
       }
