@@ -23,7 +23,7 @@
       })
 
       if(checkName.length <= 3) {
-        $scope.result = "Group Of 3 registered";
+        $scope.result = "Registered";
       }
       else {
         $scope.result = "Error";
